@@ -5,7 +5,7 @@ import {
     InputOTPSlot,
 } from "@/components/ui/input-otp";
 import { REGEXP_ONLY_DIGITS_AND_CHARS } from "input-otp";
-import Info from "./components/Info";
+import Info from "../../components/Info";
 
 export default function Otp() {
     const [otp, setOtp] = useState<string>(""); // State for OTP
