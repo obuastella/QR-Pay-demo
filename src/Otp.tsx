@@ -25,7 +25,7 @@ export default function Otp() {
             Please verify your phone number.
           </p>
           <p className="text-[#797979] mb-3">We sent a verification code via SMS to (555) 555-1212.  Please enter the code below within the next 10 min.</p>
-          <div>
+          <div className="mb-3">
           <InputOTP
                   className="m-auto"
                   maxLength={6}
@@ -44,7 +44,7 @@ export default function Otp() {
                 //   onChange={handlePinChange}
                 />
           </div>
-          <button className="text-primary">Resend the code</button>
+          <button className="text-primary font-semibold">Resend the code</button>
         </div>
       </div>
     </div>
